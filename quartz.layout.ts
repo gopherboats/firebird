@@ -21,7 +21,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
   ],
   left: [
-    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Darkmode(),
   ],
